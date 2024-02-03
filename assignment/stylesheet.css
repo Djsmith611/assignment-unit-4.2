@@ -1,12 +1,67 @@
+body {
+    background-image: linear-gradient(45deg, rgb(13, 196, 228) 50%, rgb(2, 2, 2) 50%);
+    background-size: 500px 500px;
+  }
 header{
-    background-color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.3);
     color: black;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
 }
-h2{
-    background-color: black;
+#headerOne{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#headerTwo{
+    background-color: rgba(255, 255, 255, 0);
     color: aliceblue;
+    font-size: 50px;
+    border-radius: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
-h3{
-    background-color: aliceblue;
+.info{
+    background-color: rgba(255, 0, 0, 0.3);
     color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+img{
+    border-radius: 5px;
+    border: double;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#bottom{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#mocha{
+    background-color: rgba(255, 0, 0, 0.3);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+#inline{
+    display: flex;
 }
